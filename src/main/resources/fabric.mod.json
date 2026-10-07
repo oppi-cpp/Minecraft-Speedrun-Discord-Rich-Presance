@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "mcsr_presence",
+  "version": "${version}",
+  "name": "MCSR Discord Presence",
+  "description": "Client-side Discord Rich Presence for Minecraft 1.16.1 speedruns.",
+  "authors": ["custom"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.mcsrpresence.McsrPresence"]
+  },
+  "mixins": ["mcsr_presence.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "minecraft": "1.16.1",
+    "java": ">=8"
+  }
+}
