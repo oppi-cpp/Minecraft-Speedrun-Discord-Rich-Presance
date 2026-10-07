@@ -1,5 +1,7 @@
 # MCSR Discord Presence
 
+![Discord Rich Presence preview](docs/presence-preview.jpg)
+
 Discord Rich Presence client mod for **Minecraft Java 1.16.1 + Fabric Loader**, made for Minecraft speedrunning.
 
 ## Features
